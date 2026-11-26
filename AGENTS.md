@@ -22,7 +22,7 @@ pull request why its remaining findings don't apply. `LGTM` gets reviewed sooner
 `NITS ONLY`, fix the nits the user agrees with and rerun once. Don't change code to satisfy a
 finding the user disputes. Use a fresh subagent or session rather than the one that wrote the change.
 
-## Required tooling
+## Required Tooling
 
 This project supports creating a development environment using [conda](https://docs.conda.io/en/latest/) with [environment.yml](environment.yml) or
 [Pixi](https://pixi.prefix.dev/latest/) with [pixi.toml](pixi.toml). pandas CI uses Pixi and tasks defined in [pixi.toml](pixi.toml) for all workflows
@@ -30,7 +30,7 @@ This project supports creating a development environment using [conda](https://d
 
 Linting checks require [pre-commit](https://pre-commit.com/), installed in a conda or pixi environment, to run checks defined in [.pre-commit-config.yaml](.pre-commit-config.yaml).
 
-## Repository map
+## Repository Map
 
 - `pandas/` — library implementation
 - `pandas/_libs/` — Cython/C/C++
